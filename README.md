@@ -18,11 +18,11 @@ DPT might not allways be correct for DPT which are not covered by the eibd libra
 
 ## Install & Configuration
 
-1st.)   Install eibd and configure it. Test if all runs correctly.
-2nd.)   Fire up your ETS and export your groupaddresses to xml. (Only 3-leve structure is tested right now.)
-3rd.)   Write down the complete DPT for each groupaddress. Write down wheter the ga is r,w,rw. You will find those          informations within ets.
+1st.)   Install eibd and configure it. Test if all runs correctly.<br>
+2nd.)   Fire up your ETS and export your groupaddresses to xml. (Only 3-leve structure is tested right now.)<br>
+3rd.)   Write down the complete DPT for each groupaddress. Write down wheter the ga is r,w,rw. You will find those          informations within ets.<br>
 4rd.)   Open the exportet xml file and append the information received from step 3 to the groupaddress.
-You can append it on a single ga or on a middlegroup. If choosen a middlegroup each ga within the middlegroup will reflect those values as long as there are no individual values set.
+You can append it on a single ga or on a middlegroup. If choosen a middlegroup each ga within the middlegroup will reflect those values as long as there are no individual values set.<br>
 
 -----------------------------------------------------------
 
