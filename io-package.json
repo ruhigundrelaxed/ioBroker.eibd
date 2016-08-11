@@ -1,0 +1,21 @@
+{
+    "common": {
+        "name":                     	"eibd",
+        "version":                 	"0.0.1",
+        "title":                    	"iobroker Motion  Adapter",
+        "desc":                     	"Javascript/Node.js based eibd adapter",
+        "platform":                 	"Javascript/Node.js",
+        "mode":                     	"daemon",
+        "icon":                     	"knx.png",
+        "extIcon":                  	"https://github.com/ruhigundrelaxed/ioBroker.motion/blob/master/motion.png",
+        "loglevel":                 	"info",
+        "nondeletable":             true
+    },
+    "native": {
+        "HOST": "127.0.0.1",
+        "port": 6720
+    },
+    "objects": [
+
+    ]
+}
