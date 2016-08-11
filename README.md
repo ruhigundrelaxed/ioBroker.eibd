@@ -58,25 +58,26 @@ Here is an example:
      }
 ```
 
-First: "DPT": "1_001" means: DPT1.001 sorry about the "_" <-> "." swap. 
-2nd: "KNX Datentyp": "B1" means: boolean datatype. just for information. 
-3rd; "Iobroker Datentyp": "boolean": the datatype of the corresponding iobroker state
-4rd: "Iobroker Role": "switch": the role...
-5th min ...
-6th max ...
-7th  "transform_in": "!!val": The value will be transformed to boolean (true;false)
-8th  "transform_out": "+val": The value will be transformed to (0;1)
+First: "DPT": "1_001" means: DPT1.001 sorry about the "_" <-> "." swap. <br>
+2nd: "KNX Datentyp": "B1" means: boolean datatype. just for information. <br>
+3rd; "Iobroker Datentyp": "boolean": the datatype of the corresponding iobroker state <br>
+4rd: "Iobroker Role": "switch": the role... <br>
+5th min ... <br>
+6th max ... <br>
+7th  "transform_in": "!!val": The value will be transformed to boolean (true;false) <br> 
+8th  "transform_out": "+val": The value will be transformed to (0;1)<br>
 
-another example of tranform_in / transform_out
+another example of tranform_in / transform_out<br>
 
------------------------------------------------------------
+```javascript
 "transform_in": "(100 - Math.round((val/255)*100,2))",
 "transform_out": "Math.round(((100 - val) / 100) * 255)"
------------------------------------------------------------
+```
 
 In this case:
-knx is presenting percent values as 8bit values. e.g.: values from 1 to 255. we need to tranform them to valid percent values and back.
-In this special case percent value is inverted...
+knx is presenting percent values as 8bit values. e.g.: values from 1 to 255. <br>
+we need to tranform them to valid percent values and back.<br>
+In this special case percent value is inverted...<br>
 
 
 Here are some screenshots:
