@@ -38,7 +38,6 @@ Example:
       <GroupAddress Name="A1 - F (WZ - SD 6)" Address="1/2/6" />
       <GroupAddress Name="A1 - G (SZ - LSR)" Address="1/2/7" />
       <GroupAddress Name="A1 - H (SZ - NTL L)" Address="1/2/8" />
-...
 -----------------------------------------------------------
 
 5th) optional
