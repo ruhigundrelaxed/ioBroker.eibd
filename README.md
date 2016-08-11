@@ -1,5 +1,5 @@
 ![Logo](knx.png)
-ioBroker: alternative eib(knx) Adapter
+ioBroker eibd: An alternative eib(knx) adapter for iobroker.
 ==============
 
 Connecting the eib(knx) bus to iobroker. 
