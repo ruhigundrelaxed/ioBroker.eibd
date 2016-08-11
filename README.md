@@ -1,4 +1,4 @@
-![Logo](admin/knx.png)
+![Logo](knx.png)
 ioBroker: alternative eib(knx) Adapter
 ==============
 
