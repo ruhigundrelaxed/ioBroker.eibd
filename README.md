@@ -23,9 +23,11 @@ DPT might not allways be correct for DPT which are not covered by the eibd libra
 3rd.)   Write down the complete DPT for each groupaddress. Write down wheter the ga is r,w,rw. You will find those          informations within ets.<br>
 4rd.)   Open the exportet xml file and append the information received from step 3 to the groupaddress.
 You can append it on a single ga or on a middlegroup. If choosen a middlegroup each ga within the middlegroup will reflect those values as long as there are no individual values set.<br>
-For eaxample see the following part of my groupaddress export.
-As you can see, I extended the middlegroup "messen" with the field dpt and the field access.
-In this case: The values are readonly and the nature of the values are: float16 unit milli ampere (ma).
+For eaxample see the following part of my groupaddress export.<br>
+As you can see, I extended the middlegroup "messen" with the field dpt and the field access.<br>
+In this case: The values are readonly and the nature of the values are: float16 unit milli ampere (ma).<br>
+
+Example:
 -----------------------------------------------------------
  <GroupRange Name="messen" RangeStart="2560" RangeEnd="2815" dpt="9.021" access="r">
       <GroupAddress Name="A1 - A (WZ - LSR 1)" Address="1/2/1" />
