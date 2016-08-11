@@ -1,0 +1,2481 @@
+[
+  {
+    "DPT": "1_001",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Switch",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": "",
+    "transform_in": "!!val",
+    "transform_out": "+val"
+  },
+  {
+    "DPT": "1_002",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Bool",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_003",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Enable",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_004",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Ramp",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_005",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Alarm",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_006",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_BinaryValue",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_007",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Step",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_008",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_UpDown",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_009",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_OpenClose",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_010",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Start",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_011",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_State",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_012",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Invert",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_013",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_DimSendStyle",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_014",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_InputSource",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_015",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Reset",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_016",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Ack",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_017",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Trigger",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_018",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Occupancy",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_019",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Window_Door",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_021",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_LogicalFunction",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_022",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Scene_AB",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_023",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_ShutterBlinds_Mode",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "1_100",
+    "KNX Datentyp": "B1",
+    "Iobroker  Datentyp": "boolean",
+    "KNX Role": "DPT_Heat/Cool",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_001",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Switch_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_002",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Bool_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_003",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Enable_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_004",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Ramp_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_005",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Alarm_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_006",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_BinaryValue_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_007",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Step_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_008",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Direction1_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_009",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Direction2_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_010",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Start_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_011",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_State_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "2_012",
+    "KNX Datentyp": "B2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Invert_Control",
+    "Iobroker Role": "switch",
+    "min": 0,
+    "max": 1,
+    "unit": ""
+  },
+  {
+    "DPT": "3_007",
+    "KNX Datentyp": "B1U3",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Control_Dimming",
+    "Iobroker Role": "level.dimmer",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "3_008",
+    "KNX Datentyp": "B1U3",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Control_Blinds",
+    "Iobroker Role": "level.blinds",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "4_001",
+    "KNX Datentyp": "A8",
+    "Iobroker  Datentyp": "string",
+    "KNX Role": "DPT_Char_ASCII",
+    "Iobroker Role": "text",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "4_002",
+    "KNX Datentyp": "A8",
+    "Iobroker  Datentyp": "string",
+    "KNX Role": "DPT_Char_8859_1",
+    "Iobroker Role": "text",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "5_001",
+    "KNX Datentyp": "U8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Scaling",
+    "Iobroker Role": "value.scale",
+    "min": 0,
+    "max": 100,
+    "unit": "%",
+    "transform_in": "(100 - Math.round((val/255)*100,2))",
+    "transform_out": "Math.round(((100 - val) / 100) * 255)"
+  },
+  {
+    "DPT": "5_003",
+    "KNX Datentyp": "U8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Angle",
+    "Iobroker Role": "value.angle",
+    "min": 0,
+    "max": 255,
+    "unit": "Grad",
+    "transform_in": "Math.round((val/255)*360,2)",
+    "transform_out": "Math.round((val / 360) * 255)"
+  },
+  {
+    "DPT": "5_004",
+    "KNX Datentyp": "U8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Percent_U8",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": "%",
+    "transform_in": "(100 - Math.round((val/255)*100,2))",
+    "transform_out": "Math.round(((100 - val) / 100) * 255)"
+  },
+  {
+    "DPT": "5_005",
+    "KNX Datentyp": "U8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_DecimalFactor",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "5_006",
+    "KNX Datentyp": "U8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Tariff",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "5_010",
+    "KNX Datentyp": "U8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_1_Ucount",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": "pulse"
+  },
+  {
+    "DPT": "6_001",
+    "KNX Datentyp": "V8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Percent_V8",
+    "Iobroker Role": "value",
+    "min": -128,
+    "max": 127,
+    "unit": "%"
+  },
+  {
+    "DPT": "6_010",
+    "KNX Datentyp": "V8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_1_Count",
+    "Iobroker Role": "value",
+    "min": -128,
+    "max": 127,
+    "unit": "pulse"
+  },
+  {
+    "DPT": "6_020",
+    "KNX Datentyp": "B5N3",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Status_Mode3",
+    "Iobroker Role": "mixed",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "7_001",
+    "KNX Datentyp": "U16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_2_Ucount",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 65535,
+    "unit": "pulse"
+  },
+  {
+    "DPT": "7_002",
+    "KNX Datentyp": "U16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_TimePeriodMsec",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 65535,
+    "unit": ""
+  },
+  {
+    "DPT": "7_003",
+    "KNX Datentyp": "U16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_TimePeriod10MSec",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 65535,
+    "unit": ""
+  },
+  {
+    "DPT": "7_004",
+    "KNX Datentyp": "U16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_TimePeriod100MSec",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 65535,
+    "unit": ""
+  },
+  {
+    "DPT": "7_005",
+    "KNX Datentyp": "U16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_TimePeriodSec",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 65535,
+    "unit": ""
+  },
+  {
+    "DPT": "7_006",
+    "KNX Datentyp": "U16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_TimePeriodMin",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 65535,
+    "unit": ""
+  },
+  {
+    "DPT": "7_007",
+    "KNX Datentyp": "U16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_TimePeriodHrs",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 65535,
+    "unit": ""
+  },
+  {
+    "DPT": "7_010",
+    "KNX Datentyp": "U16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_PropDataType",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 65535,
+    "unit": ""
+  },
+  {
+    "DPT": "7_011",
+    "KNX Datentyp": "U16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Length_mm",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 65535,
+    "unit": ""
+  },
+  {
+    "DPT": "7_012",
+    "KNX Datentyp": "U16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_UElCurrentmA",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 65535,
+    "unit": ""
+  },
+  {
+    "DPT": "7_013",
+    "KNX Datentyp": "U16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Brightness",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 65535,
+    "unit": ""
+  },
+  {
+    "DPT": "8_001",
+    "KNX Datentyp": "V16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_2_Count",
+    "Iobroker Role": "value",
+    "min": -32768,
+    "max": 32767,
+    "unit": "pulse"
+  },
+  {
+    "DPT": "8_002",
+    "KNX Datentyp": "V16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_DeltaTimeMsec",
+    "Iobroker Role": "value",
+    "min": -32768,
+    "max": 32767,
+    "unit": ""
+  },
+  {
+    "DPT": "8_003",
+    "KNX Datentyp": "V16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_DeltaTime10MSec",
+    "Iobroker Role": "value",
+    "min": -32768,
+    "max": 32767,
+    "unit": ""
+  },
+  {
+    "DPT": "8_004",
+    "KNX Datentyp": "V16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_DeltaTime100MSec",
+    "Iobroker Role": "value",
+    "min": -32768,
+    "max": 32767,
+    "unit": ""
+  },
+  {
+    "DPT": "8_005",
+    "KNX Datentyp": "V16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_DeltaTimeSec",
+    "Iobroker Role": "value",
+    "min": -32768,
+    "max": 32767,
+    "unit": ""
+  },
+  {
+    "DPT": "8_006",
+    "KNX Datentyp": "V16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_DeltaTimeMin",
+    "Iobroker Role": "value",
+    "min": -32768,
+    "max": 32767,
+    "unit": ""
+  },
+  {
+    "DPT": "8_007",
+    "KNX Datentyp": "V16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_DeltaTimeHrs",
+    "Iobroker Role": "value",
+    "min": -32768,
+    "max": 32767,
+    "unit": ""
+  },
+  {
+    "DPT": "8_010",
+    "KNX Datentyp": "V16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Percent_V16",
+    "Iobroker Role": "value",
+    "min": -32768,
+    "max": 32767,
+    "unit": "%"
+  },
+  {
+    "DPT": "8_011",
+    "KNX Datentyp": "V16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Rotation_Angle",
+    "Iobroker Role": "value",
+    "min": -32768,
+    "max": 32767,
+    "unit": ""
+  },
+  {
+    "DPT": "9_001",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Temp",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "Grad C"
+  },
+  {
+    "DPT": "9_002",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Tempd",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "K"
+  },
+  {
+    "DPT": "9_003",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Tempa",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "K/h"
+  },
+  {
+    "DPT": "9_004",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Lux",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "Lux"
+  },
+  {
+    "DPT": "9_005",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Wsp",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "m/s"
+  },
+  {
+    "DPT": "9_006",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Pres",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "Pa"
+  },
+  {
+    "DPT": "9_007",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Humidity",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "%"
+  },
+  {
+    "DPT": "9_008",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_AirQuality",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "ppm"
+  },
+  {
+    "DPT": "9_010",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Time1",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "s"
+  },
+  {
+    "DPT": "9_011",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Time2",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "ms"
+  },
+  {
+    "DPT": "9_020",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Volt",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "mV"
+  },
+  {
+    "DPT": "9_021",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Curr",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "mA",
+    "transform_in": "Math.round(val)"
+  },
+  {
+    "DPT": "9_022",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_PowerDensity",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "W/m2"
+  },
+  {
+    "DPT": "9_023",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_KelvinPerPercent",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "K/%"
+  },
+  {
+    "DPT": "9_024",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Power",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "kW"
+  },
+  {
+    "DPT": "9_025",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Volume_Flow",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "l/h"
+  },
+  {
+    "DPT": "9_026",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Rain_Amount",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "cm"
+  },
+  {
+    "DPT": "9_027",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Temp_F",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "F"
+  },
+  {
+    "DPT": "9_028",
+    "KNX Datentyp": "F16",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Wsp_kmh",
+    "Iobroker Role": "value",
+    "min": "-671088,64",
+    "max": "670760,96",
+    "unit": "kmh"
+  },
+  {
+    "DPT": "10_001",
+    "KNX Datentyp": "N3N5r2N6r2N6",
+    "Iobroker  Datentyp": "string",
+    "KNX Role": "DPT_TimeOfDay",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "11_001",
+    "KNX Datentyp": "r3N5r4N4r1U7",
+    "Iobroker  Datentyp": "string",
+    "KNX Role": "DPT_Date",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "12_001",
+    "KNX Datentyp": "U32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_4_Ucount",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 4294967295,
+    "unit": ""
+  },
+  {
+    "DPT": "13_001",
+    "KNX Datentyp": "V32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_4_Count",
+    "Iobroker Role": "value",
+    "min": -2147483648,
+    "max": 2147483647,
+    "unit": ""
+  },
+  {
+    "DPT": "13_010",
+    "KNX Datentyp": "V32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ActiveEnergy",
+    "Iobroker Role": "value",
+    "min": -2147483648,
+    "max": 2147483647,
+    "unit": ""
+  },
+  {
+    "DPT": "13_011",
+    "KNX Datentyp": "V32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ApparantEnergy",
+    "Iobroker Role": "value",
+    "min": -2147483648,
+    "max": 2147483647,
+    "unit": ""
+  },
+  {
+    "DPT": "13_012",
+    "KNX Datentyp": "V32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ReactiveEnergy",
+    "Iobroker Role": "value",
+    "min": -2147483648,
+    "max": 2147483647,
+    "unit": ""
+  },
+  {
+    "DPT": "13_013",
+    "KNX Datentyp": "V32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ActiveEnergy_kWh",
+    "Iobroker Role": "value",
+    "min": -2147483648,
+    "max": 2147483647,
+    "unit": ""
+  },
+  {
+    "DPT": "13_014",
+    "KNX Datentyp": "V32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ApparantEnergy_kVAh",
+    "Iobroker Role": "value",
+    "min": -2147483648,
+    "max": 2147483647,
+    "unit": ""
+  },
+  {
+    "DPT": "13_015",
+    "KNX Datentyp": "V32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ReactiveEnergy_kVARh",
+    "Iobroker Role": "value",
+    "min": -2147483648,
+    "max": 2147483647,
+    "unit": ""
+  },
+  {
+    "DPT": "13_100",
+    "KNX Datentyp": "V32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_LongDeltaTimeSec",
+    "Iobroker Role": "value",
+    "min": -2147483648,
+    "max": 2147483647,
+    "unit": ""
+  },
+  {
+    "DPT": "14_000",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Acceleration",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_001",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Acceleration_Angular",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_002",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Activation_Energy",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_003",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Activity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_004",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Mol",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_005",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Amplitude",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_006",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_AngleRad",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_007",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_AngleDeg",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "?"
+  },
+  {
+    "DPT": "14_008",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Angular_Momentum",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_009",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Angular_Velocity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_010",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Area",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_011",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Capacitance",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_012",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Charge_DensitySurface",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_013",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Charge_DensityVolume",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_014",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Compressibility",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_015",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Conductance",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_016",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electrical_Conductivity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_017",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Density",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_018",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electric_Charge",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_019",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electric_Current",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "A"
+  },
+  {
+    "DPT": "14_020",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electric_CurrentDensity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_021",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electric_DipoleMoment",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_022",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electric_Displacement",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_023",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electric_FieldStrength",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_024",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electric_Flux",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_025",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electric_FluxDensity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_026",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electric_Polarization",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_027",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electric_Potential",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "V"
+  },
+  {
+    "DPT": "14_028",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electric_PotentialDifference",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "V"
+  },
+  {
+    "DPT": "14_029",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_ElectromagneticMoment",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_030",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Electromotive_Force",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_031",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Energy",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "J"
+  },
+  {
+    "DPT": "14_032",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Force",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "N"
+  },
+  {
+    "DPT": "14_033",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Frequency",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "H"
+  },
+  {
+    "DPT": "14_034",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Angular_Frequency",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_035",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Heat_Capacity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_036",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Heat_FlowRate",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "W"
+  },
+  {
+    "DPT": "14_037",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Heat_Quantity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "J"
+  },
+  {
+    "DPT": "14_038",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Impedance",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "Ohm"
+  },
+  {
+    "DPT": "14_039",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Length",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "m"
+  },
+  {
+    "DPT": "14_040",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Light_Quantity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_041",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Luminance",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_042",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Luminous_Flux",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_043",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Luminous_Intensity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_044",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Magnetic_FieldStrength",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_045",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Magnetic_Flux",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_046",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Magnetic_FluxDensity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_047",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Magnetic_Moment",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_048",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Magnetic_Polarization",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_049",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Magnetization",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_050",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_MagnetomotiveForce",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_051",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Mass",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "kg"
+  },
+  {
+    "DPT": "14_052",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_MassFlux",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_053",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Momentum",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_054",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Phase_AngleRad",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_055",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Phase_AngleDeg",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_056",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Power",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "W"
+  },
+  {
+    "DPT": "14_057",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Power_Factor",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_058",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Pressure",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_059",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Reactance",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_060",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Resistance",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_061",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Resistivity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_062",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_SelfInductance",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_063",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_SolidAngle",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_064",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Sound_Intensity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_065",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Speed",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "m/s"
+  },
+  {
+    "DPT": "14_066",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Stress",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "Pa"
+  },
+  {
+    "DPT": "14_067",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Surface_Tension",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "N m-1"
+  },
+  {
+    "DPT": "14_068",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Common_Temperature",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "?C"
+  },
+  {
+    "DPT": "14_069",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Absolute_Temperature",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "K"
+  },
+  {
+    "DPT": "14_070",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_TemperatureDifference",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "K"
+  },
+  {
+    "DPT": "14_071",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Thermal_Capacity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_072",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Thermal_Conductivity",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_073",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_ThermoelectricPower",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_074",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Time",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_075",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Torque",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_076",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Volume",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_077",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Volume_Flux",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "14_078",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Weight",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "N"
+  },
+  {
+    "DPT": "14_079",
+    "KNX Datentyp": "F32",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Value_Work",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": "J"
+  },
+  {
+    "DPT": "15_000",
+    "KNX Datentyp": "U4U4U4U4U4U4B4N4",
+    "Iobroker  Datentyp": "mixed",
+    "KNX Role": "DPT_Access_Data",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "16_000",
+    "KNX Datentyp": "A112",
+    "Iobroker  Datentyp": "string",
+    "KNX Role": "DPT_String_ASCII",
+    "Iobroker Role": "text",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "16_001",
+    "KNX Datentyp": "A112",
+    "Iobroker  Datentyp": "string",
+    "KNX Role": "DPT_String_8859_1",
+    "Iobroker Role": "text",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "17_001",
+    "KNX Datentyp": "r2U6",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_SceneNumber",
+    "Iobroker Role": "list",
+    "min": 0,
+    "max": 63,
+    "unit": ""
+  },
+  {
+    "DPT": "18_001",
+    "KNX Datentyp": "B1r1U6",
+    "Iobroker  Datentyp": "mixed",
+    "KNX Role": "DPT_SceneControl",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "19_001",
+    "KNX Datentyp": "U8[r4U4][r3U5][U3U5][r2U6][r2U6]B16",
+    "Iobroker  Datentyp": "mixed",
+    "KNX Role": "DPT_DateTime",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "20_001",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_SCLOMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_002",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_BuildingMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_003",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_OccMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_004",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Priority",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_005",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_LightApplicationMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_006",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ApplicationArea",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_007",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_AlarmClassType",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_008",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_PSUMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_011",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ErrorClass_System",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_012",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ErrorClass_HVAC",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_013",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Time_Delay",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_014",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Beaufort_Wind_Force_Scale",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_017",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_SensorSelect",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_100",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_FuelType",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_101",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_BurnerType",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_102",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_HVACMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_103",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_DHWMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_104",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_LoadPriority",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_105",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_HVACContrMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_106",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_HVACEmergMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_107",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ChangeoverMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_108",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ValveMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_109",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_DamperMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_110",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_HeaterMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_111",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_FanMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_112",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_MasterSlaveMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_113",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_StatusRoomSetp",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_600",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Behaviour_Lock_Unlock",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_601",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_Behaviour_Bus_Power_Up_Down",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_1000",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_CommMode",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_1001",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_AddInfoTypes",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_1002",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_RF_ModeSelect",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "20_1003",
+    "KNX Datentyp": "N8",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_RF_FilterSelect",
+    "Iobroker Role": "value",
+    "min": 0,
+    "max": 255,
+    "unit": ""
+  },
+  {
+    "DPT": "21_001",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_StatusGen",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "21_002",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Device_Control",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "21_100",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_ForceSign",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "21_101",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_ForceSignCool",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "21_102",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_StatusRHC",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "21_103",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_StatusSDHWC",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "21_104",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_FuelTypeSet",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "21_105",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_StatusRCC",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "21_106",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_StatusAHU",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "21_1000",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_RF_ModeInfo",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "21_1001",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_RF_FilterInfo",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "21_1010",
+    "KNX Datentyp": "B8",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Channel_Activation_8",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "22_100",
+    "KNX Datentyp": "B16",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_StatusDHWC",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "22_101",
+    "KNX Datentyp": "B16",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_StatusRHCC",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "22_1000",
+    "KNX Datentyp": "B16",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Media",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "22_1010",
+    "KNX Datentyp": "B16",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Channel_Activation_16",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "23_001",
+    "KNX Datentyp": "N2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_OnOff_Action",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "23_002",
+    "KNX Datentyp": "N2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Alarm_Reaction",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "23_003",
+    "KNX Datentyp": "N2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_UpDown_Action",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "23_102",
+    "KNX Datentyp": "N2",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_HVAC_PB_Action",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "24_001",
+    "KNX Datentyp": "A[n]",
+    "Iobroker  Datentyp": "string",
+    "KNX Role": "DPT_VarString_8859_1",
+    "Iobroker Role": "text",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "25_1000",
+    "KNX Datentyp": "U4U4",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_DoubleNibble",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "26_001",
+    "KNX Datentyp": "r1b1U6",
+    "Iobroker  Datentyp": "mixed",
+    "KNX Role": "DPT_SceneInfo",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "27_001",
+    "KNX Datentyp": "B32",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_CombinedInfoOnOff",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "28_001",
+    "KNX Datentyp": "A[n]",
+    "Iobroker  Datentyp": "string",
+    "KNX Role": "DPT_UTF-8",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "29_010",
+    "KNX Datentyp": "V64",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ActiveEnergy_V64",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "29_011",
+    "KNX Datentyp": "V64",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ApparantEnergy_V64",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "29_012",
+    "KNX Datentyp": "V64",
+    "Iobroker  Datentyp": "number",
+    "KNX Role": "DPT_ReactiveEnergy_V64",
+    "Iobroker Role": "value",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "30_1010",
+    "KNX Datentyp": "B24",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_Channel_Activation_24",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  },
+  {
+    "DPT": "31_101",
+    "KNX Datentyp": "N3",
+    "Iobroker  Datentyp": "array",
+    "KNX Role": "DPT_PB_Action_HVAC_Extended",
+    "Iobroker Role": "list",
+    "min": "",
+    "max": "",
+    "unit": ""
+  }
+]
