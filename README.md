@@ -1,4 +1,4 @@
-![Logo](knx.png)
+![Logo](admin/knx.png)
 ioBroker eibd: An alternative eib(knx) adapter for iobroker.
 ==============
 
