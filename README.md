@@ -28,23 +28,23 @@ As you can see, I extended the middlegroup "messen" with the field dpt and the f
 In this case: The values are readonly and the nature of the values are: float16 unit milli ampere (ma).<br>
 
 Example:
------------------------------------------------------------
- <GroupRange Name="messen" RangeStart="2560" RangeEnd="2815" dpt="9.021" access="r">
-      <GroupAddress Name="A1 - A (WZ - LSR 1)" Address="1/2/1" />
-      <GroupAddress Name="A1 - B (WZ - LSR 2)" Address="1/2/2" />
-      <GroupAddress Name="A1 - C (WZ - SD 3)" Address="1/2/3" />
-      <GroupAddress Name="A1 - D (WZ - SD 4)" Address="1/2/4" />
-      <GroupAddress Name="A1 - E (WZ - SD 5)" Address="1/2/5" />
-      <GroupAddress Name="A1 - F (WZ - SD 6)" Address="1/2/6" />
-      <GroupAddress Name="A1 - G (SZ - LSR)" Address="1/2/7" />
-      <GroupAddress Name="A1 - H (SZ - NTL L)" Address="1/2/8" />
------------------------------------------------------------
+```xml
+    <GroupRange Name="messen" RangeStart="2560" RangeEnd="2815" dpt="9.021" access="r">
+    <GroupAddress Name="A1 - A (WZ - LSR 1)" Address="1/2/1" />
+    <GroupAddress Name="A1 - B (WZ - LSR 2)" Address="1/2/2" />
+    <GroupAddress Name="A1 - C (WZ - SD 3)" Address="1/2/3" />
+    <GroupAddress Name="A1 - D (WZ - SD 4)" Address="1/2/4" />
+    <GroupAddress Name="A1 - E (WZ - SD 5)" Address="1/2/5" />
+    <GroupAddress Name="A1 - F (WZ - SD 6)" Address="1/2/6" />
+    <GroupAddress Name="A1 - G (SZ - LSR)" Address="1/2/7" />
+    <GroupAddress Name="A1 - H (SZ - NTL L)" Address="1/2/8" />
+```
 
 5th) optional
 If you want to change the datatype, its nature or transforming you should take a look in the ga.json file.
 Here is an example:
------------------------------------------------------------
-{
+```javascript
+    {
     "DPT": "1_001",
     "KNX Datentyp": "B1",
     "Iobroker  Datentyp": "boolean",
@@ -55,8 +55,9 @@ Here is an example:
     "unit": "",
     "transform_in": "!!val",
     "transform_out": "+val"
- }
------------------------------------------------------------
+     }
+```
+
 First: "DPT": "1_001" means: DPT1.001 sorry about the "_" <-> "." swap. 
 2nd: "KNX Datentyp": "B1" means: boolean datatype. just for information. 
 3rd; "Iobroker Datentyp": "boolean": the datatype of the corresponding iobroker state
