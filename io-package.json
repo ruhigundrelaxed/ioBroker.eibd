@@ -7,7 +7,7 @@
         "platform":                 	"Javascript/Node.js",
         "mode":                     	"daemon",
         "icon":                     	"knx.png",
-        "extIcon":                  	"https://github.com/ruhigundrelaxed/ioBroker.motion/blob/master/knx.png",
+        "extIcon":                  	"https://github.com/ruhigundrelaxed/ioBroker.eibd/blob/master/knx.png",
         "loglevel":                 	"info",
         "nondeletable":             true
     },
