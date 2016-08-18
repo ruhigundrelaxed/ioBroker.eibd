@@ -1,7 +1,7 @@
 {
   "name": "iobroker.eibd",
   "version": "0.0.1",
-  "description": "Alternative Adapter to use EIB (knx) with iobroker!"
+  "description": "Alternative Adapter to use EIB (knx) with iobroker!",
   "author": "ruhigundrelaxed<martin@qvadrat.de>",
   "homepage": "https://github.com/ruhigundrelaxed/ioBroker.eibd/",
   "readme": "https://github.com/ruhigundrelaxed/ioBroker.motion/blob/master/README.md",
