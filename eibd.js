@@ -140,12 +140,13 @@ function get_dpts(filename, callback){
 	fs.readFile(filename, function(err, data){
 		if (!err){	
 			dpts = JSON.parse(data);
+			callback(dpts);
 		}else{
 			adapter.log.error("Could not read the DPT Definition file.");
 			return;
 		}
 	});
-	callback(dpts);
+	
 };
 
 
